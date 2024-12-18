@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  width: 90%;
+  margin: 1% 4%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 15px;
+}
+.btn-items{
+  background-color: #ffffff;
+  margin-right: 2rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  
+  text-transform: capitalize;
+}
+.btn-items:hover{
+
+  color: rgb(22, 175, 22);
+  cursor: pointer;
+  font-weight: bolder;
+}
+.main-container{
+  display:flex;
+  flex-wrap: wrap;
+  width: 94%;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: lightslategray;
+  padding: 2% 0;
+  margin: 2% 4%;
+  border-radius: 15px;
+}
+.card-container:hover{
+  transition: all 1s ease;
+  transform: scale(1.05);
+}
+.card-container{
+  display: flex;
+  width: 20%;
+  border: 2px solid #1f1c1c;
+  border-radius: 10px;
+  background-color: aliceblue;
+margin: 2%;
+  padding: 2%;
+  
+}
+.card-number{
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  font-weight: bolder;
+  width: 7%;
+  border: 2px solid grey;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  padding: 8px;
+  align-items: center;
+}
+.card-author{
+  display: flex;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+  color: darkred;
+  text-shadow: 5px 5px 10px rgba(22, 20, 20, 0.5);
+}
+.card-title{
+  text-transform: capitalize;
+  padding:20px 0;
+  font-size:30px;
+  color: black;
+  text-shadow: 4px 4px 4px darkgrey;
+}
+.card-read{
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+  text-align: end;
+  padding-top: 10px ;
+  font-weight: 500;
+}
+.card-image{
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid black;
+  height: 200px;
+}
+.card-description{
+  font-size: large;
+  font-weight: 200;
+  font-style: italic;
+
+}
+.card-price{
+  font-size: larger;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.card-tag{
+  text-align: end;
+  font-size: large;
+  font-weight: 500;
+  margin-top: 20px ;
+}
+.card-tag:hover{
+  color: darkred;
+  cursor: pointer;
+}
+.footer{
+  background-color: slategray;
+  padding: 3%;
+  width: 89%;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  margin: 0 4%;
+}
